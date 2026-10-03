@@ -1,1 +1,1 @@
-# lpg-studio
+# lpg-studioLPG Studio
