@@ -48,6 +48,170 @@
   .wa-float{position:fixed;bottom:22px;right:22px;width:58px;height:58px;border-radius:50%;background:var(--whatsapp);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:99;text-decoration:none;}
   .wa-float svg{width:32px;height:32px;fill:#fff;}
   #success{display:none;background:#e6f4ef;border:1px solid var(--accent);color:var(--accent-dark);padding:14px;border-radius:8px;margin-top:16px;text-align:center;}
+  .form-note{color:var(--muted);font-size:.9rem;margin-top:12px;text-align:center;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>💆 LPG Studio <span class="brand">by RUZANA</span></h1>
+  <nav>
+    <a href="#services">Услуги</a>
+    <a href="#booking">Онлайн-запись</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <img src="IMG_8036.webp" alt="LPG массаж — LPG Studio by RUZANA">
+  <div class="hero-text">
+    <h2>LPG массаж тела — красота и лёгкость</h2>
+    <p>Аппаратный массаж LPG: уменьшает объёмы, убирает целлюлит, улучшает тонус кожи. Записывайтесь онлайн или напишите нам в WhatsApp.</p>
+    <a class="btn btn-wa" href="https://wa.me/79060377700?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20LPG%20%D0%BC%D0%B0%D1%81%D1%81%D0%B0%D0%B6" target="_blank">💬 Записаться в WhatsApp</a>
+    <a class="btn btn-call" href="tel:+79060377700">📞 +7 906 037-77-00</a>
+  </div>
+</div>
+
+<section id="services">
+  <h2 class="section-title">Наши услуги</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>LPG массаж тела</h3>
+      <p>Аппаратная процедура: прорабатывает глубокие слои кожи, запускает лимфодренаж, сокращает целлюлит и подтягивает контуры тела.</p>
+      <div class="price">1 500 ₽</div>
+      <div class="duration">⏱ Длительность: 35 минут</div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#efe9e0;">
+  <h2 class="section-title">Почему выбирают нас</h2>
+  <div class="features">
+    <div class="card"><h3>✔ Сертифицированный аппарат</h3><p>Работаем на оригинальном оборудовании LPG.</p></div>
+    <div class="card"><h3>✔ Мастер с опытом</h3><p>Индивидуальный подход к каждому клиенту.</p></div>
+    <div class="card"><h3>✔ Удобное расположение</h3><p>м. Новокосино, 2 минуты от метро.</p></div>
+    <div class="card"><h3>✔ Доступная цена</h3><p>Первоклассная процедура всего за 1 500 ₽.</p></div>
+  </div>
+</section>
+
+<section id="booking">
+  <h2 class="section-title">Онлайн-запись</h2>
+  <form id="bookingForm">
+    <label for="name">Ваше имя</label>
+    <input type="text" id="name" placeholder="Иван Иванов" required>
+
+    <label for="phone">Телефон</label>
+    <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+
+    <label for="date">Желаемая дата и время</label>
+    <input type="datetime-local" id="date" required>
+
+    <label for="comment">Комментарий (необязательно)</label>
+    <textarea id="comment" rows="3" placeholder="Пожелания, зоны для проработки..."></textarea>
+
+    <button type="submit" class="btn btn-wa">💬 Отправить заявку в WhatsApp</button>
+    <div id="success">✅ Открываем WhatsApp. Нажмите «Отправить» в сообщении, чтобы завершить запись.</div>
+    <p class="form-note">Заявка откроется сообщением в WhatsApp, мы ответим и подтвердим время.</p>
+  </form>
+</section>
+
+<section id="reviews" class="reviews">
+  <h2 class="section-title">Отзывы клиентов</h2>
+  <div class="cards">
+    <div class="card"><p>«Отличный LPG массаж! Кожа стала заметно глаже уже после нескольких сеансов.»</p><strong>— Анна С.</strong></div>
+    <div class="card"><p>«Удобное расположение, вежливый мастер. Записывалась через WhatsApp — очень быстро.»</p><strong>— Мария Л.</strong></div>
+    <div class="card"><p>«Приятная атмосфера и доступная цена. Теперь хожу регулярно.»</p><strong>— Екатерина В.</strong></div>
+  </div>
+</section>
+
+<footer id="contacts">
+  <p><strong>LPG Studio <span style="font-style:italic">by RUZANA</span></strong></p>
+  <p><strong>Адрес:</strong> г. Москва, м. Новокосино, ул. Новокосинская, д. 37</p>
+  <p><strong>Телефон:</strong> <a href="tel:+79060377700">+7 906 037-77-00</a> &nbsp;|&nbsp; <strong>Часы работы:</strong> ежедневно 10:00–19:00</p>
+  <p>© 2026 LPG Studio by RUZANA</p>
+</footer>
+
+<a class="wa-float" href="https://wa.me/79060377700" target="_blank" title="Написать в WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.5 4.2 1.6 6L4 29l8.2-1.5c1.7.9 3.6 1.4 5.6 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9.9.9-4.7-.3-.4C5.2 17.6 4.7 16.3 4.7 15 4.7 9.9 9.9 4.8 16 4.8s11.3 5.1 11.3 11.2S22.1 25 16 25zm5.5-8.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.4.3-.6.1-.2.1-.4 0-.6l-1-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.8-.7 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.7-.5z"/></svg>
+</a>
+
+<script>
+document.getElementById('bookingForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var name = document.getElementById('name').value.trim();
+  var phone = document.getElementById('phone').value.trim();
+  var date = document.getElementById('date').value.replace('T', ' ');
+  var comment = document.getElementById('comment').value.trim();
+
+  var text = 'Здравствуйте! Хочу записаться на LPG массаж.\n' +
+             'Имя: ' + name + '\n' +
+             'Телефон: ' + phone + '\n' +
+             'Желаемая дата и время: ' + date;
+  if (comment) { text += '\nКомментарий: ' + comment; }
+
+  var url = 'https://wa.me/79060377700?text=' + encodeURIComponent(text);
+
+  document.getElementById('success').style.display = 'block';
+  var w = window.open(url, '_blank');
+  if (!w) { window.location.href = url; }
+
+  this.reset();
+  setTimeout(function(){ document.getElementById('success').style.display = 'none'; }, 8000);
+});
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LPG Studio by RUZANA — LPG массаж в Москве | Запись онлайн</title>
+<style>
+  :root{
+    --bg:#f7f4ef; --card:#ffffff; --accent:#2e7d6b; --accent-dark:#1f5c4e;
+    --pink:#e91e8c; --whatsapp:#25D366; --text:#333; --muted:#777; --radius:14px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif;}
+  body{background:var(--bg);color:var(--text);line-height:1.6;}
+  header{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;padding:20px 6%;}
+  header h1{font-size:1.6rem;}
+  nav{margin-top:8px;}
+  nav a{color:#e6f2ee;text-decoration:none;margin-right:20px;font-weight:600;}
+  nav a:hover{text-decoration:underline;}
+  .hero{display:flex;align-items:center;justify-content:center;gap:40px;flex-wrap:wrap;padding:50px 6%;background:#efe9e0;}
+  .hero-text{max-width:520px;}
+  .hero h2{font-size:2.2rem;color:var(--accent-dark);}
+  .hero p{color:var(--muted);margin:12px 0;}
+  .hero img{max-width:420px;width:100%;border-radius:var(--radius);box-shadow:0 8px 24px rgba(0,0,0,.18);}
+  .brand{color:var(--pink);font-style:italic;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 30px;border:none;border-radius:30px;font-size:1rem;cursor:pointer;text-decoration:none;transition:.2s;margin:6px 4px;}
+  .btn:hover{background:var(--accent-dark);}
+  .btn-wa{background:var(--whatsapp);}
+  .btn-wa:hover{background:#1da851;}
+  .btn-call{background:transparent;border:2px solid var(--accent);color:var(--accent);}
+  .btn-call:hover{background:var(--accent);color:#fff;}
+  section{padding:50px 6%;}
+  h2.section-title{text-align:center;color:var(--accent-dark);margin-bottom:30px;}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+  .card{background:var(--card);border-radius:var(--radius);padding:26px;box-shadow:0 3px 10px rgba(0,0,0,.06);}
+  .card h3{color:var(--accent-dark);margin-bottom:8px;}
+  .price{color:var(--accent);font-weight:700;font-size:1.3rem;margin-top:10px;}
+  .duration{color:var(--muted);}
+  form{background:var(--card);max-width:520px;margin:0 auto;padding:30px;border-radius:var(--radius);box-shadow:0 3px 10px rgba(0,0,0,.06);}
+  label{display:block;margin:14px 0 6px;font-weight:600;}
+  input,select,textarea{width:100%;padding:11px;border:1px solid #ccc;border-radius:8px;font-size:1rem;}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);}
+  form .btn{width:100%;margin-top:20px;}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+  .reviews .card p{color:var(--muted);font-style:italic;}
+  .reviews .card strong{color:var(--accent-dark);}
+  footer{background:var(--accent-dark);color:#fff;text-align:center;padding:24px 6%;margin-top:20px;}
+  footer a{color:#c9e8dd;text-decoration:none;}
+  .wa-float{position:fixed;bottom:22px;right:22px;width:58px;height:58px;border-radius:50%;background:var(--whatsapp);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:99;text-decoration:none;}
+  .wa-float svg{width:32px;height:32px;fill:#fff;}
+  #success{display:none;background:#e6f4ef;border:1px solid var(--accent);color:var(--accent-dark);padding:14px;border-radius:8px;margin-top:16px;text-align:center;}
 </style>
 </head>
 <body>
